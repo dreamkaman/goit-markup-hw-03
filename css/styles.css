@@ -1,0 +1,236 @@
+/* --------------------------------shared styles--------------------------------*/
+:root {
+  --main-blue: #2196f3;
+  --main-white: #ffffff;
+  --main-black: #212121;
+  --logo-black: #000000;
+  --main-gray: #757575;
+  --background-sahara: #f5f4fa;
+  --background-black: #2f303a;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main-black);
+  letter-spacing: 0.03em;
+}
+
+.nav-list .current {
+  color: var(--main-blue);
+}
+
+/* --------------------------------settings for index.html -------------------------------------*/
+.header-text {
+  font-weight: 500;
+  /* font-style: normal; */
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--logo-black);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+
+  text-decoration: none;
+}
+
+.logo span {
+  color: var(--main-blue);
+}
+
+.nav-list {
+  list-style: none;
+}
+.nav-list a {
+  color: var(--main-black);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: var(--main-blue);
+}
+
+.header-contacts {
+  list-style: none;
+}
+
+.header-contacts a {
+  color: var(--main-gray);
+  text-decoration: none;
+}
+
+.header-contacts a:hover,
+.header-contacts a:focus {
+  color: var(--main-blue);
+}
+
+.hero {
+  background-color: var(--background-black);
+  color: var(--main-white);
+}
+
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: var(--main-white);
+  background-color: var(--main-blue);
+  cursor: pointer;
+}
+
+.hero button:hover,
+.hero button:focus {
+  background-color: var(--background-sahara);
+  color: var(--main-blue);
+}
+
+.features h2,
+.servises h2,
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.features ul {
+  list-style: none;
+}
+
+.features h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.features p {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-gray);
+}
+
+.servises ul {
+  list-style: none;
+}
+
+.team {
+  background-color: var(--background-sahara);
+}
+
+.team ul {
+  list-style: none;
+}
+
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team p {
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--main-gray);
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--main-white);
+  background-color: var(--background-black);
+}
+
+.footer-text .logo {
+  color: var(--main-white);
+}
+.footer-contacts {
+  list-style: none;
+}
+
+.footer-text p {
+  font-style: normal;
+}
+
+.footer-contacts a {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+
+  text-decoration: none;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  color: var(--main-blue);
+}
+
+/* ------------------------styles for portfolio.html -----------------------------------------*/
+
+.examples ul {
+  list-style: none;
+}
+
+.examples-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.examples-filter button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  background-color: var(--background-sahara);
+  color: var(--main-black);
+  cursor: pointer;
+}
+
+.examples-filter button:hover,
+.examples-filter button:focus {
+  background-color: var(--main-blue);
+  color: var(--main-white);
+}
+
+.examples-list h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.examples-list p {
+  font-size: 16px;
+  line-height: 1.87;
+
+  color: var(--main-gray);
+}
