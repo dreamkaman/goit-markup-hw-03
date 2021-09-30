@@ -20,6 +20,11 @@ body {
   color: var(--main-blue);
 }
 
+.current-filter {
+  background-color: var(--main-blue);
+  color: var(--main-white);
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -291,7 +296,10 @@ ul {
 } */
 
 .team-item-description {
+  padding-top: 30px;
   padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 
