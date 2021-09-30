@@ -142,35 +142,48 @@ ul {
 }
 
 .hero {
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
   background-color: var(--background-black);
   color: var(--main-white);
 }
 
-.hero .container {
+/* .hero .container {
   text-align: center;
   padding-top: 200px;
-}
+} */
 
 .hero-title {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
 }
 
+.hero-title-wraper {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
 .hero-button {
+  display: block;
+
   padding-top: 10px;
   padding-right: 32px;
   padding-bottom: 10px;
   padding-left: 32px;
   border-radius: 4px;
   border: 0;
+  margin-left: auto;
+  margin-right: auto;
 
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -359,8 +372,6 @@ ul {
 }
 
 .footer-mail {
-  display: inline-block;
-
   margin-bottom: 6px;
 }
 
