@@ -20,11 +20,6 @@ body {
   color: var(--main-blue);
 }
 
-.current-filter {
-  background-color: var(--main-blue);
-  color: var(--main-white);
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
